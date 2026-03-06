@@ -1,41 +1,46 @@
-# Brian Covarrubias
+Brian Covarrubias
 
-Independent research exploring AI governance, verification systems, and evidentiary infrastructure for autonomous systems.
+Independent research exploring AI governance, cryptographic verification systems, and evidentiary infrastructure for autonomous systems.
 
-Currently building **CEYO**, a conceptual project that examines how deterministic artifact generation and cryptographic verification could enable independent validation of AI system decision events.
+Currently building CEYO, a conceptual architecture examining how AI decision events can produce deterministic, cryptographically sealed artifacts that enable independent verification without exposing model internals.
 
-## Current Project
+⸻
 
-**CEYO — Evidentiary Infrastructure for Autonomous Systems**
+Technical Areas
 
-CEYO explores a neutral evidentiary layer that produces deterministic, cryptographically sealed artifacts describing AI inference events.
+AI governance
+cryptographic verification
+auditability of automated systems
+risk and safety infrastructure
+deterministic data canonicalization
 
-These artifacts can later be independently verified without requiring access to proprietary model weights or system internals.
+⸻
 
-Core ideas explored in the project:
+Current Project
 
-- policy-scoped decision capture
-- deterministic canonicalization
-- cryptographic hashing
-- digital signatures for artifact integrity
-- independent verification workflows
+CEYO — Evidentiary Infrastructure for Autonomous Systems
+
+CEYO explores a neutral evidentiary layer capable of producing deterministic artifacts describing AI inference events.
+
+These artifacts are designed to support later independent verification using cryptographic hashing and digital signatures while preserving the confidentiality of proprietary model weights and internal system architecture.
+
+Core ideas explored:
+
+• policy-scoped decision capture
+• deterministic canonicalization
+• SHA-256 hashing
+• digital signatures for artifact integrity
+• independent verification workflows
 
 Protocol repository:
-
 https://github.com/ndr-us/ceyo-protocol
 
 Project site:
-
 https://ndr-us.github.io/ceyo-site/
 
-## Focus Areas
+⸻
 
-AI governance  
-cryptographic verification  
-auditability of automated systems  
-risk and safety infrastructure
-
-## Background
+Background
 
 Former CAL FIRE Type 1 handcrew firefighter experienced in safety-critical operational environments.
 
