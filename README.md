@@ -1,78 +1,49 @@
 # Brian Covarrubias
 
-Independent research exploring AI governance, cryptographic verification systems, and evidentiary infrastructure for autonomous systems.
+Independent researcher working at the intersection of AI governance, cryptographic verification, and evidentiary infrastructure for autonomous systems.
 
-Currently building **CEYO**, a conceptual architecture examining how AI decision events can produce deterministic, cryptographically sealed artifacts that enable independent verification without exposing model internals.
+Currently building **CEYO** — an independent evidentiary architecture for AI-supported operations designed to produce deterministic, cryptographically sealed artifacts that can be verified later without exposing model internals or modifying the originating system.
 
----
+## Focus Areas
 
-## Technical Areas
-
-AI governance  
-cryptographic verification  
-auditability of automated systems  
-risk and safety infrastructure  
-deterministic data canonicalization  
-
----
+- AI governance
+- Cryptographic verification
+- Auditability of automated systems
+- Deterministic canonicalization
+- Risk, safety, and oversight infrastructure
 
 ## Current Project
 
-### CEYO — Evidentiary Infrastructure for Autonomous Systems
+### CEYO
 
-CEYO explores a neutral evidentiary layer capable of producing deterministic artifacts describing AI inference events.
+CEYO explores how policy-scoped AI decision events can be transformed into deterministic artifact records suitable for later independent verification.
 
-These artifacts are designed to support later independent verification using cryptographic hashing and digital signatures while preserving the confidentiality of proprietary model weights and internal system architecture.
+Its architecture centers on:
 
-Core ideas explored:
+- policy-scoped capture
+- deterministic canonicalization
+- cryptographic hashing
+- digital signatures
+- independent verification workflows
 
-- policy-scoped decision capture  
-- deterministic canonicalization  
-- SHA-256 hashing  
-- digital signatures for artifact integrity  
-- independent verification workflows  
+The project is being developed as a protocol-oriented evidentiary layer for environments where record integrity, traceability, and later verification matter.
 
-Protocol repository:  
-https://github.com/ndr-us/ceyo-protocol  
+## Technical Scope
 
-Project site:  
-https://ndr-us.github.io/ceyo-site/
+The current CEYO work includes:
 
----
+- artifact schema design
+- protocol documentation
+- Python implementation components
+- CLI-oriented verification workflows
+- end-to-end artifact generation and validation demos
 
-## Technical Demonstration
+At a high level, the verification flow is:
 
-The CEYO prototype includes a minimal Python implementation demonstrating deterministic artifact generation and verification.
-
-The demonstration explores the following workflow:
-
-1. Capture a structured AI decision event  
-2. Canonicalize the record deterministically  
-3. Produce a SHA-256 hash of the canonical artifact  
-4. Generate a digital signature  
-5. Verify artifact integrity independently  
-
-Example components included in the repository:
-
-**seal_artifact.py**  
-Creates a deterministic artifact from structured event data and produces a cryptographic signature.
-
-**demo.py**  
-Demonstrates the full artifact lifecycle:
-
-record → canonicalize → hash → sign → verify
-
-This prototype illustrates how AI decision records could be sealed and later verified without exposing internal model weights or proprietary system architecture.
-
-Repository:  
-https://github.com/ndr-us/ceyo-protocol
-
----
+`record → canonicalize → hash → sign → verify`
 
 ## Background
 
-Former **CAL FIRE Type 1 handcrew firefighter** experienced in safety-critical operational environments.
+Former CAL FIRE Type 1 handcrew firefighter with experience in safety-critical operational environments.
 
-Traveled across **70+ countries** and worked internationally across six countries.
-
-Based in **San Diego, California.**
+Based in San Diego, California.
